@@ -1,0 +1,24 @@
+ZooKeeper -server host:port cmd args
+        addauth scheme auth
+        close
+        connect host:port
+        create [-s] [-e] path [data] [acl]
+        delete [-v version] path
+        deleteall path
+        delquota [-n|-b] path
+        get [-s] [-w] path
+        getAcl [-s] path
+        history
+        listquota path
+        ls [-w] path
+        ls2 path [watch]
+        printwatches on|off
+        quit
+        redo cmdno
+        removewatches path [-c|-d|-a] [-l]
+        rmr path
+        set [-s] [-v version] path data
+        setAcl [-s] [-v version] path acl
+        setquota -n|-b val path
+        stat [-w] path
+        sync path
